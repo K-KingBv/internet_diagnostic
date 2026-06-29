@@ -1,0 +1,20 @@
+name: internet_diagnostic
+description: Diagnóstico completo de tu conexión a Internet.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0  # Para la prueba de velocidad
+  connectivity_plus: ^5.0.1  # Para saber si hay WiFi
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
